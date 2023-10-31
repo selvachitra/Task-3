@@ -1,0 +1,257 @@
+
+
+.headerleft {
+    color: rgb(24, 23, 23);
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+}
+
+nav ul li a {
+    color: rgb(19, 19, 18);
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.but {
+    float: right;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 30px;
+    border-color: black;
+}
+
+.main {
+    /* background: url("sechi.png") no-repeat center; */
+    /* background-color:white ; */
+    padding: 37px;
+    /* display: flex; */
+}
+
+.image {
+    background: url("sechi.png")no-repeat center;
+    -webkit-background-size: cover;
+    border-radius: 5px;
+    width: 1500px;
+    height: 500px;
+    padding-bottom: 60px;
+}
+
+.headline {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(233, 92, 10);
+
+}
+
+.image .mat {
+    display: inline;
+    background-color: rgb(230, 212, 212);
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.mat p1 {
+    position: absolute;
+    top: 55%;
+    left: 31%;
+    background-color: bisque;
+}
+
+.mat p2 {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    background-color: bisque;
+}
+
+.mat p3 {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    margin-top: -30px;
+    background-color: bisque;
+}
+
+.mat p4 {
+    position: absolute;
+    top: 68%;
+    left: 49%;
+    margin-top: -50px;
+    background-color: bisque;
+}
+
+.main3 .button {
+    color: white;
+    background-color: rgb(6, 6, 37);
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+}
+
+.main4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main4 .box {
+    border-radius: 30px;
+    width: 300px;
+    padding: 40px;
+    background-color: rgb(238, 214, 135);
+    box-shadow: 15px;
+}
+
+.main4 .box .user {
+    display: flex;
+}
+
+.main4 .box .user h4 {
+    margin: 20px;
+}
+
+.main4 .box .user img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.main4 .boxes {
+    width: 700px;
+
+}
+
+.main4 .boxes .box1 {
+    width: 250px;
+    height: 100px;
+    margin: 20px 0px 20px 270px;
+    padding: 10px 30px;
+    border-radius: 65px;
+    background-color: rgb(217, 228, 122);
+}
+
+.main4 .boxes .box2 {
+    width: 250px;
+    margin: 20px 0px 20px 270px;
+    padding: 10px 30px;
+    border-radius: 65px;
+    background-color: rgb(133, 224, 130);
+}
+
+.main4 .boxes .box3 {
+    width: 250px;
+    margin: 20px 0px 20px 270px;
+    padding: 10px 30px;
+    border-radius: 65px;
+    background-color: rgb(223, 148, 87);
+}
+
+.main4 .box p5 {
+    font-size: large;
+    position: absolute;
+    display: inline;
+    border: 1px white;
+    color: white;
+    margin-top: -25px;
+    left: 180px;
+    margin-bottom: 20px;
+    background-color: rgb(22, 63, 54);
+}
+
+.main5 h1 {
+    color: rgb(6, 5, 68);
+}
+
+.a {
+    color: rgb(255, 0, 0);
+    padding-bottom: 8px;
+}
+
+.main5 {
+    margin-left: -20px;
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 65px;
+    display: flex;
+    position: absolute;
+
+}
+
+.main5 .duv {
+    width: 50%;
+    padding: 50px;
+}
+
+.main5 .button {
+    color: white;
+    background-color: rgb(3, 3, 44);
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+.main5 .box5 .button1 {
+    color: rgb(36, 11, 68);
+    background-color: rgb(216, 219, 43);
+    padding: 10px;
+}
+
+.main5 .box5 .button2 {
+    color: rgb(36, 11, 68);
+    background-color: rgb(72, 207, 30);
+    padding: 10px;
+}
+
+.main5 .box5 .button3 {
+    color: rgb(36, 11, 68);
+    background-color: rgb(177, 87, 14);
+    padding: 10px;
+}
+
+.pic {
+    width: 50%;
+}
+
+.pic p {
+    background-color: orangered;
+    height: 60px;
+    width: 60px;
+    padding: 30px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 500px;
+    position: absolute;
+    margin-bottom: 600px;
+    margin-top: -50px;
+    z-index: 5;
+}
+
+.pic img {
+    position: relative;
+    margin-bottom: 0px;
+    height: 350px;
+    width: 600px;
+
+}
+
